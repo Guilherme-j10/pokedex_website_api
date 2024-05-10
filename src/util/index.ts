@@ -1,0 +1,20 @@
+export const iconsArray = [
+  { name: "bug", iconPathImage: "bug.svg", background: "#92BC2C" },
+  { name: "dark", iconPathImage: "dark.svg", background: "#595761" },
+  { name: "dragon", iconPathImage: "dragon.svg", background: "#0C69C8" },
+  { name: "electric", iconPathImage: "electric.svg", background: "#F2D94E" },
+  { name: "fairy", iconPathImage: "fairy.svg", background: "#EE90E6" },
+  { name: "fighting", iconPathImage: "fighting.svg", background: "#D3425F" },
+  { name: "fire", iconPathImage: "fire.svg", background: "#FBA54C" },
+  { name: "flying", iconPathImage: "flying.svg", background: "#A1BBEC" },
+  { name: "ghost", iconPathImage: "ghost.svg", background: "#5F6DBC" },
+  { name: "grass", iconPathImage: "grass.svg", background: "#5FBD58" },
+  { name: "ground", iconPathImage: "ground.svg", background: "#DA7C4D" },
+  { name: "ice", iconPathImage: "ice.svg", background: "#75D0C1" },
+  { name: "normal", iconPathImage: "normal.svg", background: "#A0A29F" },
+  { name: "poison", iconPathImage: "poison.svg", background: "#B763CF" },
+  { name: "psychic", iconPathImage: "psychic.svg", background: "#FA8581" },
+  { name: "rock", iconPathImage: "rock.svg", background: "#C9BB8A" },
+  { name: "steel", iconPathImage: "steel.svg", background: "#5695A3" },
+  { name: "water", iconPathImage: "water.svg", background: "#539DDF" }
+];
