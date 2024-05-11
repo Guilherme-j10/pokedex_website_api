@@ -2,6 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
+.spin_animation {
+  animation: spin 4s infinite linear;
+}
+
+.bounce {
+  animation: bounce 1.5s infinite linear;
+}
+
+@keyframes bounce {
+  0% {
+    top: -120px;
+  }
+
+  50% {
+    top: -110px;
+  }
+
+  100% {
+    top: -120px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+  border-radius: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: #000
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #8510c4;
+  border-radius: 10px;
+}
+
+
 .no_scroll::-webkit-scrollbar {
   width: 0px;
   height: 0px;
